@@ -1,0 +1,11 @@
+{
+  "name": "autoimport-website",
+  "version": "1.0.0",
+  "description": "Website for AutoImport car import business",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./input.css -o ./styles.css --minify"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
